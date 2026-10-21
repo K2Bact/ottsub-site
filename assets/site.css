@@ -3,3 +3,6 @@
 @media(max-width:800px){.wrap{padding:0 24px}.nav-links{gap:16px}.nav-links a:not(.language){display:none}.hero{grid-template-columns:1fr;gap:35px;padding:38px 0 42px;max-width:650px}.intro{max-width:100%}.screen{min-height:280px}.features,.steps{grid-template-columns:1fr;gap:28px}.example{grid-template-columns:1fr;gap:18px}.closing{display:block}.closing .button{margin-top:8px}h2{font-size:25px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}}
 .policy-body{max-width:860px;overflow-wrap:anywhere}.policy-body p,.policy-body li{font-size:14px;color:var(--muted)}.policy-body article{margin-top:26px}.policy-body h3{margin-bottom:9px}.policy-body a{color:var(--blue)}
+
+/* Multiple language links wrap as a group on narrow screens. */
+.nav,.nav-links{flex-wrap:wrap}.nav-links{row-gap:10px}
